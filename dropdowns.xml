@@ -1,10 +1,10 @@
 <select id="deflection">
 <option></option>
-<option value="Boosted">+1 Composure</option>
+<option value="Boosted">4 (+1) Composure</option>
 <option value="Visionary">Draw</option>
 <option value="Wide">4 Composure All Arguments, Expend</option>
 <option value="Clarity">5 Heal, 5 Composure, Destroy</option>
-<option value="Lucid">+2 Composure, Expend</option>
+<option value="Lucid">5 (+2) Composure, Expend</option>
 </select>
 
 
@@ -43,7 +43,7 @@
 
 <select id="feint">
 <option></option>
-<option value="Boosted">+2 Defense</option>
+<option value="Boosted">6 (+2) Defense</option>
 <option value="Spined">Gain 2 Counter</option>
 <option value="Vision">Draw</option>
 <option value="Clarity">10 Defense, Destroy</option>
@@ -68,3 +68,119 @@
 <option value="Rooted">4-5 Damage</option>
 <option value="Strained">Discard, 4-6 Damage</option>
 </select>
+
+
+<select id="grumble">
+<option></option>
+<option value="Rigged">Rig 1 Snails</option>
+<option value="Mirrored">Attack Twice, 2-2 Damage</option>
+<option value="Lucid">Destroy, 6 Damage</option>
+<option value="Decisive">Set the coin, Expend</option>
+<option value="Speculative">Gamble</option>
+<option value="Visionary">Draw</option>
+<option value="Rooted">3-3 Damage</option>
+<option value="Assertive">Gain 1 Dominance</option>
+<option value="Strained">Discard, 2-4 Damage</option>
+</select>
+
+
+<select id="pleasantries">
+<option></option>
+<option value="Sifting">Prepare a Card</option>
+<option value="Cordial">Gain 1 Influence</option>
+<option value="Tall">1-5 Damage</option>
+<option value="Visionary">Draw</option>
+<option value="Speculative">Gamble</option>
+<option value="Decisive">Set The Coin, Expend</option>
+<option value="Lucid">Destroy, 5-7 Damage</option>
+<option value="Rigged">Rig 1 Heads</option>
+</select>
+
+
+<select id="rationale">
+<option></option>
+<option value=""></option>
+<option value=""> </option>
+<option value=""></option>
+<option value="Boosted">4 (+1) Composure</option>
+<option value="Visionary">Draw</option>
+<option value="Crown">Gamble. Heads: Apply 5 Composure</option>
+<option value="Sluggish">Rig 1 Snails</option>
+<option value="Headstrong">Rig 1 Heads</option>
+<option value="Foot">Gamble. Snails: Apply 2 Composure All Arguments</option>
+</select>
+
+
+<select id="blast">
+<option></option>
+<option value="Charged">Spend 1 Charge: +2 Damage</option>
+<option value="Induction">Gain 1 Charge</option>
+<option value="Lucid">Destroy, 7 Damage</option>
+<option value="Visionary">Draw</option>
+<option value="Fiery">Apply 2 Burn</option>
+<option value="Loaded">Fully Charged: Costs 0</option>
+<option value="Mirrored">Attack Twice</option>
+</select>
+
+
+<select id="hunkerDown">
+<option></option>
+<option value="Boosted">5 (+2) Defense</option>
+<option value="Visionary">Draw</option>
+<option value="Induction">Gain 1 Charge</option>
+<option value="Surging">Gain 2 Overcharge</option>
+<option value="Lucid">Destroy, 8 Defense</option>
+</select>
+
+
+<select id="kick">
+<option></option>
+<option value="Kickochet">Apply 1 Ricochet</option>
+<option value="Pale">Empty: Costs 1 Less</option>
+<option value="Lucid">Destroy, 14 Damage</option>
+<option value="Visionary">Draw</option>
+<option value="Double">Attack Twice, 5 Damage</option>
+</select>
+
+
+<select id="">
+<option></option>
+<option value=""></option>
+<option value=""> </option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+</select>
+
+
+<select id="">
+<option></option>
+<option value=""></option>
+<option value=""> </option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+</select>
+
+
+<select id="">
+<option></option>
+<option value=""></option>
+<option value=""> </option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+</select>
+
