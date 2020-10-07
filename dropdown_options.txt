@@ -99,9 +99,6 @@
 
 <select id="rationale">
 <option></option>
-<option value=""></option>
-<option value=""> </option>
-<option value=""></option>
 <option value="Boosted">4 (+1) Composure</option>
 <option value="Visionary">Draw</option>
 <option value="Crown">Gamble. Heads: Apply 5 Composure</option>
