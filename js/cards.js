@@ -2,6 +2,7 @@
 var cards = {
 
         deflection: {
+            fancyName: "Deflection",
             choices: [
                 "4 (+1) Composure",
                 "Draw",
@@ -12,6 +13,7 @@ var cards = {
         },
 
         fastTalk: {
+            fancyName: "Fast Talk",
             choices: [
                 "Destroy",
                 "Spend 1 Influence: Costs 0",
@@ -22,6 +24,7 @@ var cards = {
         },
 
     threaten: {
+        fancyName: "Threaten",
         choices: [
             "Destroy, Damage 8",
             "Attack Twice, Damage 1-2",
@@ -32,6 +35,7 @@ var cards = {
     },
 
     elbowStrike: {
+        fancyName: "Elbow Strike",
         choices: [
             "Destroy, Damage 7",
             "Gain 1 Combo",
@@ -45,6 +49,7 @@ var cards = {
     },
 
     feint: {
+        fancyName: "Feint",
         choices: [
             "6 (+2) Defense",
             "Gain 2 Counter",
@@ -60,6 +65,7 @@ var cards = {
     },
 
     stab: {
+        fancyName: "Stab",
         choices: [
             "Destroy",
             "Gain 2 Defense",
@@ -74,6 +80,7 @@ var cards = {
     },
 
     grumble: {
+        fancyName: "Grumble",
         choices: [
             "Rig 1 Snails",
             "Attack Twice, 2-2 Damage",
@@ -88,6 +95,7 @@ var cards = {
     },
 
     pleasantries: {
+        fancyName: "Pleasantries",
         choices: [
             "Prepare a Card",
             "Gain 1 Influence",
@@ -101,6 +109,7 @@ var cards = {
     },
 
     rationale: {
+        fancyName: "Rationale",
         choices: [
             "4 (+1) Composure",
             "Draw",
@@ -112,6 +121,7 @@ var cards = {
     },
 
     blast: {
+        fancyName: "Blast",
         choices: [
             "Spend 1 Charge: +2 Damage",
             "Gain 1 Charge",
@@ -124,6 +134,7 @@ var cards = {
     },
 
     hunkerDown: {
+        fancyName: "Hunker Down",
         choices: [
             "5 (+2) Defense",
             "Draw",
@@ -134,6 +145,7 @@ var cards = {
     },
 
     kick: {
+        fancyName: "Kick",
         choices: [
             "Apply 1 Ricochet",
             "Empty: Costs 1 Less",

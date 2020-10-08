@@ -1,6 +1,18 @@
 $(document).ready(function () {
 
-    var cardCounter = 0;
+    var cardCounter = 1;
+    var lastCardName = '';
+
+    function getNextCardIdNumber(cardName) {
+        if(cardName === lastCardName) {
+            cardCounter++;
+        }
+        else {
+            cardCounter = 1;
+            lastCardName = cardName;
+        }
+        return cardCounter;
+    }
 
     $("#footer").html("<p>report improvements and bugs <a href='https://github.com/madcap/griftlands-starting-card-upgrades'>here</a></p>");
 
@@ -49,8 +61,9 @@ $(document).ready(function () {
     }
 
     function setupCard(cardName, tableBody) {
-        cardCounter++;
-        let cardId = cardName + cardCounter;
+        let idNumber = getNextCardIdNumber(cardName);
+        let fancyName = cards[cardName].fancyName + " " + idNumber;
+        let cardId = cardName + idNumber;
         console.log("adding card " + cardId + " to tableBody " + tableBody.attr("id"));
         let choices = cards[cardName].choices;
 
@@ -68,7 +81,7 @@ $(document).ready(function () {
         let keepRight = ' &nbsp; <input class="choiceSelect" type="radio" name="choice-' + cardId + '" value="keepRight">';
 
 
-        tableBody.append("<tr id='" + cardId + "'><th scope='row'>" + cardName + destroy + "</th><td id='" + cardId + "-left'>" + select + keepLeft + "</td><td id='" + cardId + "-right'>" + select + keepRight + "</td></tr>");
+        tableBody.append("<tr id='" + cardId + "'><th scope='row'>" + fancyName + destroy + "</th><td id='" + cardId + "-left'>" + select + keepLeft + "</td><td id='" + cardId + "-right'>" + select + keepRight + "</td></tr>");
     }
 
     negotiationCards.forEach(setupNegotiationCard);
