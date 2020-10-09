@@ -8,7 +8,7 @@ var cards = {
                 "Draw",
                 "4 Composure All Arguments, Expend",
                 "5 Heal, 5 Composure, Destroy",
-                "5 (+2) Composure, Expend",
+                "6 (+3) Composure, Expend",
             ]
         },
 
